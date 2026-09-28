@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm hy123 👋</h1>
+<h1 align="center">Hi, I'm hy 👋</h1>
 
 <p align="center">
   高级计算机视觉工程师 · Senior Computer Vision Engineer<br />
