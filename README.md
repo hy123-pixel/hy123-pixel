@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://coder-hy.github.io/">个人网站</a>
+  <a href="https://bytewize.cc/">个人网站</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/hy123-pixel?tab=repositories">全部项目</a>
 </p>
