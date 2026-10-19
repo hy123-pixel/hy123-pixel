@@ -23,7 +23,7 @@
 | --- | --- | --- |
 | [MemoryBar](https://github.com/hy123-pixel/MemoryBar) | macOS 菜单栏内存监视器：按应用查看用量，按需结束占用较高的应用 | Swift, SwiftUI |
 | [CodexQuotaMenu](https://github.com/hy123-pixel/CodexQuotaMenu) | 在 macOS 菜单栏查看 Codex 额度与重置时间 | Swift, SwiftUI |
-| [MD Preview](https://github.com/hy123-pixel/md-preview-app) | 面向 macOS 与 Windows 的 Markdown 编辑和预览工具 | Tauri, Vue, TypeScript |
+| [MdPreviewApp](https://github.com/hy123-pixel/MdPreviewApp) | 面向 macOS 与 Windows 的 Markdown 桌面编辑器，支持实时预览、目录导航、数学公式和 Mermaid 图表 | Tauri, Vue, TypeScript |
 | [ChronoKit](https://github.com/hy123-pixel/ChronoKit) | 日期、时区、时间戳与业务日处理工具库 | Swift |
 
 ### MemoryBar
@@ -42,6 +42,19 @@
     <img src="https://raw.githubusercontent.com/hy123-pixel/MemoryBar/main/docs/images/how-it-works-en.svg" alt="Four-step MemoryBar usage flow" width="800" />
   </a>
 </p>
+
+### MdPreviewApp
+
+用于写作、阅读和整理 Markdown 文档。可在源码编辑、实时预览和分屏模式之间切换，并支持文件树、文章目录、代码高亮、数学公式与 Mermaid 图表。提供 macOS 和 Windows 安装包。
+
+```mermaid
+flowchart LR
+    File[Markdown 文件] --> Editor[源码编辑]
+    Editor --> Render[Markdown 渲染]
+    Render --> Preview[实时预览]
+    Editor --> Save[保存文件]
+    App[Tauri 桌面应用] --> System[macOS / Windows 系统文件能力]
+```
 
 ### Technologies
 
