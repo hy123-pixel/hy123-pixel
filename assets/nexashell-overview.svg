@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+<title id="title">NexaShell cross-platform SSH operations client</title>
+<desc id="desc">NexaShell connects terminal, SFTP, server monitoring, AI operations assistant, network diagnostics, and port forwarding in one desktop workspace.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#13294b"/><stop offset="1" stop-color="#234779"/></linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#46c5f3"/><stop offset="1" stop-color="#77e0ff"/></linearGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#08152b" flood-opacity=".32"/></filter>
+</defs>
+<rect width="1200" height="520" rx="28" fill="url(#bg)"/>
+<circle cx="1070" cy="-10" r="250" fill="#4fc9f4" opacity=".08"/><circle cx="40" cy="520" r="270" fill="#67bfff" opacity=".06"/>
+<g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <rect x="72" y="76" width="62" height="62" rx="18" fill="#294f82" stroke="#72cffa" stroke-opacity=".45"/>
+  <path d="M95 91v32l26-16z" fill="url(#glow)"/><rect x="118" y="109" width="15" height="5" rx="2.5" fill="#fff"/>
+  <text x="154" y="120" fill="#fff" font-size="27" font-weight="700" letter-spacing=".3">NexaShell</text>
+  <text x="74" y="211" fill="#fff" font-size="44" font-weight="750">远程运维，一处完成</text>
+  <text x="76" y="258" fill="#b8cbe3" font-size="21">跨平台 SSH 桌面工作台</text>
+  <text x="76" y="302" fill="#d9e6f5" font-size="16">终端 · 文件传输 · 服务器监控 · AI 助手 · 网络诊断</text>
+  <g transform="translate(76 350)">
+    <rect width="120" height="38" rx="19" fill="#fff" fill-opacity=".1" stroke="#9ec9ee" stroke-opacity=".35"/><text x="60" y="25" text-anchor="middle" fill="#d8f5ff" font-size="14" font-weight="600">Tauri 2</text>
+    <rect x="132" width="120" height="38" rx="19" fill="#fff" fill-opacity=".1" stroke="#9ec9ee" stroke-opacity=".35"/><text x="192" y="25" text-anchor="middle" fill="#d8f5ff" font-size="14" font-weight="600">Vue 3</text>
+    <rect x="264" width="120" height="38" rx="19" fill="#fff" fill-opacity=".1" stroke="#9ec9ee" stroke-opacity=".35"/><text x="324" y="25" text-anchor="middle" fill="#d8f5ff" font-size="14" font-weight="600">Rust</text>
+  </g>
+  <text x="76" y="449" fill="#9bb4d1" font-size="14">macOS · Windows</text>
+</g>
+<g filter="url(#shadow)">
+  <rect x="535" y="72" width="600" height="376" rx="18" fill="#101a2a" stroke="#6d88a9" stroke-opacity=".55"/>
+  <path d="M553 72h564a18 18 0 0 1 18 18v30H535V90a18 18 0 0 1 18-18" fill="#243750"/>
+  <circle cx="560" cy="99" r="5" fill="#ff6d6d"/><circle cx="579" cy="99" r="5" fill="#ffc75e"/><circle cx="598" cy="99" r="5" fill="#65d99b"/>
+  <text x="835" y="104" fill="#aec2d9" font-family="Inter, sans-serif" font-size="12" text-anchor="middle">NexaShell · server workspace</text>
+  <rect x="535" y="120" width="140" height="328" fill="#17263b"/>
+  <text x="555" y="151" fill="#89a7c8" font-family="Inter, sans-serif" font-size="11" font-weight="700" letter-spacing="1">CONNECTIONS</text>
+  <circle cx="559" cy="180" r="4" fill="#63d99a"/><text x="571" y="184" fill="#dbe8f6" font-family="Inter, sans-serif" font-size="12">production-01</text>
+  <circle cx="559" cy="207" r="4" fill="#63d99a"/><text x="571" y="211" fill="#b7c9de" font-family="Inter, sans-serif" font-size="12">staging-02</text>
+  <rect x="550" y="229" width="111" height="28" rx="6" fill="#274a72"/><text x="563" y="247" fill="#7edbff" font-family="Inter, sans-serif" font-size="11">SSH Terminal</text>
+  <text x="563" y="278" fill="#afc1d6" font-family="Inter, sans-serif" font-size="11">SFTP Files</text>
+  <text x="563" y="305" fill="#afc1d6" font-family="Inter, sans-serif" font-size="11">Monitoring</text>
+  <rect x="675" y="120" width="442" height="202" fill="#0d1725"/>
+  <text x="697" y="150" fill="#72d5ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">$ ssh production-01</text>
+  <text x="697" y="180" fill="#89a4bf" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">Last login: today from 10.0.0.8</text>
+  <text x="697" y="211" fill="#c8d7e8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">$ systemctl status nginx</text>
+  <text x="697" y="238" fill="#85dfa9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">● nginx.service — active (running)</text>
+  <text x="697" y="278" fill="#72d5ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">$ <tspan fill="#e9f2fc">_</tspan></text>
+  <rect x="675" y="323" width="442" height="125" fill="#17253a"/>
+  <text x="696" y="348" fill="#dce9f8" font-family="Inter, sans-serif" font-size="12" font-weight="700">SERVER OVERVIEW</text>
+  <g font-family="Inter, sans-serif">
+    <text x="697" y="375" fill="#8da6c2" font-size="10">CPU</text><text x="697" y="400" fill="#e3eefb" font-size="19" font-weight="700">24%</text>
+    <text x="795" y="375" fill="#8da6c2" font-size="10">MEMORY</text><text x="795" y="400" fill="#e3eefb" font-size="19" font-weight="700">61%</text>
+    <text x="905" y="375" fill="#8da6c2" font-size="10">DISK</text><text x="905" y="400" fill="#e3eefb" font-size="19" font-weight="700">42%</text>
+  </g>
+  <path d="M696 427h400" stroke="#344b67"/><path d="M696 427c40 1 49-15 75-12s32 16 58 8 34-12 56-9 29 13 57 7 37-17 62-11 43 12 92 2" fill="none" stroke="#57c7f0" stroke-width="2.5"/>
+</g>
+</svg>

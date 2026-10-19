@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
+<title id="title">NexaShell feature and connection diagram</title>
+<desc id="desc">A user works from the NexaShell desktop client. SSH connects to remote servers for terminal, SFTP, monitoring, and port forwarding. Network diagnostics run from the local computer.</desc>
+<defs>
+  <linearGradient id="header" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#18345d"/><stop offset="1" stop-color="#28558a"/></linearGradient>
+  <filter id="soft" x="-15%" y="-15%" width="130%" height="140%"><feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#18345d" flood-opacity=".10"/></filter>
+  <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#5c91c9"/></marker>
+</defs>
+<rect width="1200" height="610" rx="24" fill="#f4f7fb"/>
+<path d="M24 0h1152a24 24 0 0 1 24 24v92H0V24A24 24 0 0 1 24 0" fill="url(#header)"/>
+<g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+  <text x="48" y="53" fill="#fff" font-size="27" font-weight="700">NexaShell · 能力与连接示意</text>
+  <text x="49" y="84" fill="#c9dcf2" font-size="15">本机桌面工作台连接远程服务器，一站完成常用运维操作</text>
+  <g filter="url(#soft)">
+    <rect x="42" y="169" width="196" height="275" rx="17" fill="#fff" stroke="#dae4ef"/>
+    <rect x="64" y="192" width="52" height="44" rx="12" fill="#e8f4ff"/>
+    <circle cx="90" cy="211" r="10" fill="none" stroke="#4386c5" stroke-width="2"/><path d="M90 205v12m-6-6h12" stroke="#4386c5" stroke-width="2"/>
+    <text x="64" y="271" fill="#18345d" font-size="19" font-weight="700">开发者 / 运维人员</text>
+    <text x="64" y="300" fill="#647891" font-size="14">从桌面端管理连接、</text><text x="64" y="321" fill="#647891" font-size="14">终端和日常运维任务</text>
+    <rect x="64" y="353" width="150" height="1" fill="#e7edf4"/>
+    <text x="64" y="382" fill="#778ba2" font-size="12">运行位置</text><text x="64" y="407" fill="#2d4868" font-size="14" font-weight="600">macOS · Windows</text>
+  </g>
+  <path d="M246 307h72" stroke="#5c91c9" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="282" y="287" text-anchor="middle" fill="#7188a3" font-size="11">操作</text>
+  <g filter="url(#soft)">
+    <rect x="329" y="145" width="512" height="324" rx="18" fill="#fff" stroke="#b9d1e8" stroke-width="2"/>
+    <path d="M347 145h476a18 18 0 0 1 18 18v49H329v-49a18 18 0 0 1 18-18" fill="#eaf3fc"/>
+    <rect x="352" y="164" width="32" height="32" rx="10" fill="#244879"/><path d="M362 170v20l17-10z" fill="#57c9f3"/><rect x="376" y="179" width="9" height="4" rx="2" fill="#fff"/>
+    <text x="397" y="185" fill="#1d3c66" font-size="18" font-weight="700">NexaShell</text>
+    <text x="792" y="183" text-anchor="end" fill="#738aa4" font-size="12">Tauri 2 · Vue 3 · Rust</text>
+    <g>
+      <rect x="352" y="229" width="218" height="82" rx="12" fill="#f6f9fd" stroke="#e3ebf4"/>
+      <circle cx="376" cy="253" r="11" fill="#e0f4fb"/><path d="M371 254l4-4 4 4-4 4z" fill="none" stroke="#267cad" stroke-width="1.5"/>
+      <text x="397" y="258" fill="#244365" font-size="15" font-weight="700">SSH 终端</text><text x="370" y="286" fill="#768ba3" font-size="12">多会话 · 标签页 · 命令历史</text>
+      <rect x="588" y="229" width="229" height="82" rx="12" fill="#f6f9fd" stroke="#e3ebf4"/>
+      <circle cx="612" cy="253" r="11" fill="#e7efff"/><path d="M606 252h12v9h-12zM608 248h8" fill="none" stroke="#4b72bd" stroke-width="1.5"/>
+      <text x="633" y="258" fill="#244365" font-size="15" font-weight="700">SFTP 文件管理</text><text x="606" y="286" fill="#768ba3" font-size="12">浏览 · 上传下载 · 在线编辑</text>
+      <rect x="352" y="326" width="218" height="82" rx="12" fill="#f6f9fd" stroke="#e3ebf4"/>
+      <circle cx="376" cy="350" r="11" fill="#e9f8f1"/><path d="M369 354l4-5 4 2 5-7" fill="none" stroke="#348d68" stroke-width="1.7"/>
+      <text x="397" y="355" fill="#244365" font-size="15" font-weight="700">服务器监控</text><text x="370" y="383" fill="#768ba3" font-size="12">CPU · 内存 · 磁盘 · 网络</text>
+      <rect x="588" y="326" width="229" height="82" rx="12" fill="#f6f9fd" stroke="#e3ebf4"/>
+      <circle cx="612" cy="350" r="11" fill="#f2ebff"/><path d="M612 343v14m-6-7h12m-10-5 8 10m0-10-8 10" stroke="#7d5cb4" stroke-width="1.3"/>
+      <text x="633" y="355" fill="#244365" font-size="15" font-weight="700">AI 运维助手</text><text x="606" y="383" fill="#768ba3" font-size="12">环境上下文 · 建议与 Agent 模式</text>
+    </g>
+    <rect x="352" y="424" width="465" height="27" rx="8" fill="#edf5fc"/>
+    <text x="584" y="442" text-anchor="middle" fill="#45709e" font-size="12">网络诊断 · Ping / Traceroute　　端口转发 · Local / Remote / SOCKS5</text>
+  </g>
+  <path d="M850 307h70" stroke="#5c91c9" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="885" y="287" text-anchor="middle" fill="#7188a3" font-size="11">SSH / SFTP</text>
+  <g filter="url(#soft)">
+    <rect x="929" y="169" width="229" height="275" rx="17" fill="#fff" stroke="#dae4ef"/>
+    <rect x="954" y="192" width="49" height="46" rx="11" fill="#eaf3fc"/>
+    <path d="M966 209h25v17h-25zM970 204h17v5h-17zM973 216h11m-11 5h7" fill="none" stroke="#4075ae" stroke-width="1.7"/>
+    <text x="954" y="271" fill="#18345d" font-size="19" font-weight="700">远程服务器</text>
+    <text x="954" y="301" fill="#647891" font-size="14">SSH 连接与终端会话</text>
+    <text x="954" y="323" fill="#647891" font-size="14">SFTP 文件操作</text>
+    <text x="954" y="345" fill="#647891" font-size="14">系统指标采集</text>
+    <rect x="954" y="369" width="178" height="1" fill="#e7edf4"/>
+    <circle cx="963" cy="397" r="5" fill="#5ac18a"/><text x="977" y="402" fill="#3f607f" font-size="13">无需额外安装监控 Agent</text>
+  </g>
+  <text x="600" y="542" text-anchor="middle" fill="#607895" font-size="13">网络诊断在本机发起；终端、文件操作及监控通过远程连接完成</text>
+  <text x="600" y="573" text-anchor="middle" fill="#91a2b5" font-size="11">NexaShell · Cross-platform server operations client</text>
+</g>
+</svg>

@@ -61,7 +61,17 @@ flowchart LR
 
 跨平台 SSH 运维终端客户端，集成 SSH 终端、SFTP 文件管理、服务器监控、AI 运维助手、网络诊断与端口转发。提供 macOS 和 Windows 安装包。
 
-[查看项目与下载](https://github.com/hy123-pixel/NexaShellApp)
+<p align="center">
+  <a href="https://github.com/hy123-pixel/NexaShellApp">
+    <img src="https://raw.githubusercontent.com/hy123-pixel/hy123-pixel/main/assets/nexashell-overview.svg" alt="NexaShell 项目介绍：跨平台 SSH 桌面工作台" width="900" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hy123-pixel/hy123-pixel/main/assets/nexashell-architecture.svg" alt="NexaShell 功能与连接示意图" width="900" />
+</p>
+
+<p align="center"><a href="https://github.com/hy123-pixel/NexaShellApp">查看项目与下载</a></p>
 
 ### Technologies
 
