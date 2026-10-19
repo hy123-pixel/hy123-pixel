@@ -80,12 +80,12 @@ flowchart LR
 PulseCN 为 Apple 平台应用提供本地日志、URLSession 请求记录和集成式调试控制台；PulsePro 在 macOS 上接收设备发送的实时日志，并检查网络请求详情、会话和本地日志包。
 
 <p align="center">
-  <a href="https://github.com/hy123-pixel/PulsePro/releases/latest">
+  <a href="https://github.com/hy123-pixel/PulsePro/releases/tag/v0.1.0">
     <img src="https://raw.githubusercontent.com/hy123-pixel/hy123-pixel/main/assets/pulse-ecosystem.svg" alt="PulseCN 与 Pulse Pro 日志采集和远程分析流程示意图" width="900" />
   </a>
 </p>
 
-<p align="center"><a href="https://github.com/hy123-pixel/PulseCN">PulseCN 框架</a> · <a href="https://github.com/hy123-pixel/PulsePro">PulsePro 桌面端</a> · <a href="https://github.com/hy123-pixel/PulsePro/releases/latest">下载 PulsePro</a></p>
+<p align="center"><a href="https://github.com/hy123-pixel/PulseCN">PulseCN 框架</a> · <a href="https://github.com/hy123-pixel/PulsePro">PulsePro 桌面端</a> · <a href="https://github.com/hy123-pixel/PulsePro/releases/tag/v0.1.0">下载 PulsePro</a></p>
 
 ### Technologies
 
