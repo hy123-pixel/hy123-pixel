@@ -24,6 +24,7 @@
 | [MemoryBar](https://github.com/hy123-pixel/MemoryBar) | macOS 菜单栏内存监视器：按应用查看用量，按需结束占用较高的应用 | Swift, SwiftUI |
 | [CodexQuotaMenu](https://github.com/hy123-pixel/CodexQuotaMenu) | 在 macOS 菜单栏查看 Codex 额度与重置时间 | Swift, SwiftUI |
 | [MdPreviewApp](https://github.com/hy123-pixel/MdPreviewApp) | 面向 macOS 与 Windows 的 Markdown 桌面编辑器，支持实时预览、目录导航、数学公式和 Mermaid 图表 | Tauri, Vue, TypeScript |
+| [NexaShell](https://github.com/hy123-pixel/NexaShellApp) | 跨平台 SSH 运维客户端，集成终端、SFTP、服务器监控、AI 助手、网络诊断与端口转发 | Tauri 2, Vue 3, Rust |
 | [ChronoKit](https://github.com/hy123-pixel/ChronoKit) | 日期、时区、时间戳与业务日处理工具库 | Swift |
 
 ### MemoryBar
@@ -55,6 +56,12 @@ flowchart LR
     Editor --> Save[保存文件]
     App[Tauri 桌面应用] --> System[macOS / Windows 系统文件能力]
 ```
+
+### NexaShell
+
+跨平台 SSH 运维终端客户端，集成 SSH 终端、SFTP 文件管理、服务器监控、AI 运维助手、网络诊断与端口转发。提供 macOS 和 Windows 安装包。
+
+[查看项目与下载](https://github.com/hy123-pixel/NexaShellApp)
 
 ### Technologies
 
