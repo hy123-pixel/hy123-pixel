@@ -26,6 +26,8 @@
 | [MdPreviewApp](https://github.com/hy123-pixel/MdPreviewApp) | 面向 macOS 与 Windows 的 Markdown 桌面编辑器，支持实时预览、目录导航、数学公式和 Mermaid 图表 | Tauri, Vue, TypeScript |
 | [NexaShell](https://github.com/hy123-pixel/NexaShellApp) | 跨平台 SSH 运维客户端，集成终端、SFTP、服务器监控、AI 助手、网络诊断与端口转发 | Tauri 2, Vue 3, Rust |
 | [ChronoKit](https://github.com/hy123-pixel/ChronoKit) | 日期、时区、时间戳与业务日处理工具库 | Swift |
+| [PulseCN](https://github.com/hy123-pixel/PulseCN) | Pulse 日志框架的中文维护版：记录应用日志与 URLSession 网络事件，可集成到 iOS / iPadOS 应用 | Swift, SwiftUI |
+| [PulsePro](https://github.com/hy123-pixel/PulsePro) | 配套 macOS 日志工作台：接收移动设备实时日志，分析网络请求，并打开或导出本地日志包 | Swift, SwiftUI |
 
 ### MemoryBar
 
@@ -72,6 +74,18 @@ flowchart LR
 </p>
 
 <p align="center"><a href="https://github.com/hy123-pixel/NexaShellApp">查看项目与下载</a></p>
+
+### PulseCN + PulsePro
+
+PulseCN 为 Apple 平台应用提供本地日志、URLSession 请求记录和集成式调试控制台；PulsePro 在 macOS 上接收设备发送的实时日志，并检查网络请求详情、会话和本地日志包。
+
+<p align="center">
+  <a href="https://github.com/hy123-pixel/PulsePro/releases/latest">
+    <img src="https://raw.githubusercontent.com/hy123-pixel/hy123-pixel/main/assets/pulse-ecosystem.svg" alt="PulseCN 与 Pulse Pro 日志采集和远程分析流程示意图" width="900" />
+  </a>
+</p>
+
+<p align="center"><a href="https://github.com/hy123-pixel/PulseCN">PulseCN 框架</a> · <a href="https://github.com/hy123-pixel/PulsePro">PulsePro 桌面端</a> · <a href="https://github.com/hy123-pixel/PulsePro/releases/latest">下载 PulsePro</a></p>
 
 ### Technologies
 
