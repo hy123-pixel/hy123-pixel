@@ -22,7 +22,7 @@
     <text x="64" y="44" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14">iOS · iPadOS · Swift 软件包</text>
     <rect x="0" y="78" width="382" height="1" fill="#334155"/>
     <circle cx="9" cy="112" r="4" fill="#60a5fa"/><text x="24" y="117" fill="#e2e8f0" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="16">应用日志与诊断信息</text>
-    <circle cx="9" cy="151" r="4" fill="#60a5fa"/><text x="24" y="156" fill="#e2e8f0" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="16">URLSession request events</text>
+    <circle cx="9" cy="151" r="4" fill="#60a5fa"/><text x="24" y="156" fill="#e2e8f0" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="16">URLSession 网络请求事件</text>
     <circle cx="9" cy="190" r="4" fill="#60a5fa"/><text x="24" y="195" fill="#e2e8f0" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="16">应用内控制台与本地日志</text>
     <text x="0" y="244" fill="#93c5fd" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14">Pulse 框架中文本地化版本</text>
   </g>
