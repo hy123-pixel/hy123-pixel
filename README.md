@@ -87,10 +87,10 @@ PulseCN 为 Apple 平台应用提供本地日志、URLSession 请求记录和集
 
 <p align="center"><a href="https://github.com/hy123-pixel/PulseCN">PulseCN 框架</a> · <a href="https://github.com/hy123-pixel/PulsePro">PulsePro 桌面端</a> · <a href="https://github.com/hy123-pixel/PulsePro/releases/tag/v0.1.0">下载 PulsePro</a></p>
 
-### Technologies
+### 技术栈
 
 `Swift` · `SwiftUI` · `Computer Vision` · `macOS` · `iOS` · `Tauri` · `Vue` · `TypeScript`
 
 ---
 
-<p align="center"><sub>Build useful things, keep making them better.</sub></p>
+<p align="center"><sub>持续打磨，让工具更好用。</sub></p>
